@@ -20,3 +20,4 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 end
+yielding_with_arguments(2) {|i| puts i * 2}
