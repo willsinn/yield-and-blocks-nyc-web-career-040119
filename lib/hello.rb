@@ -14,5 +14,5 @@ def hello_t
 end
 
 # call your method here!
-def yielding_with_arguments(num) {|i| puts i * 2}
+def yielding_with_arguments(num) {|i| puts i * num}
 
